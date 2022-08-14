@@ -56,6 +56,7 @@
 }
 
 form {
+    position: relative;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -64,13 +65,16 @@ form {
     max-width: 600px;
     border-radius: 10px;
     margin: 0px;
-    transform: translateX(45%);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form h3 {
+    text-align: center;
     color: #02e1ff;
     font-weight: 800;
     margin-bottom: 20px;
+    font-size: 35px;
 }
 
 form input, form textarea {
