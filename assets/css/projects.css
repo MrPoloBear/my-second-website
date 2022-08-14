@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/blue-white-low-poly-triangle-shapes-background-vector.jpg);
+    background-position: center;
+    background-size:s cover;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.navbar ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #619df7;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#02a5ce;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transform: translateY(90%);
+}
+
+.content h1 {
+    margin: 0;
+    color: #008ba3;
+    font-size: 70px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+    background-color: #02a5ce;
+}
+
+.paragraph {
+    text-align: center;
+    transform: translateY(600%);
+    color: #619df7;
+    font-size: 20px;
+    position: relative;
+}
+
+.contentprojects {
+    background-image: url(../images/images.png);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
