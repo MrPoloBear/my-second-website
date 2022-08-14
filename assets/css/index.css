@@ -74,3 +74,8 @@ body {
     font-weight: 100;
     line-height: 25px;
 }
+
+.content i{
+        color: #f56278;
+        margin: 10px;
+}
