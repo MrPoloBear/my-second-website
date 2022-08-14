@@ -65,7 +65,7 @@ div {
     width: 100%;
     position: absolute;
     text-align: center;
-    transform: translateY(90%);
+    transform: translateY(30%);
 }
 
 .content h1 {
@@ -80,14 +80,6 @@ div {
     line-height: 25px;
     color: #fff;
     background-color: #02a5ce;
-}
-
-.paragraph {
-    text-align: center;
-    transform: translateY(600%);
-    color: #619df7;
-    font-size: 20px;
-    position: relative;
 }
 
 .contentprojects {
