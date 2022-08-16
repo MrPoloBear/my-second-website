@@ -36,7 +36,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: coral;
+    color: tomato;
     text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: #02e1ff;
+    background: #f56278;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -58,8 +58,7 @@
 .content h2 {
   font-size: 50px;
   color: rosybrown;
-  margin-left: 80px;
-  margin-top: 50px;
+  margin: auto;
 }
 
 .chaudhary {
@@ -87,7 +86,7 @@
 
 .content p {
   font-size: 20px;
-  color: crimson;
+ color: sienna;
   margin: 10px;
 }
 
@@ -95,3 +94,10 @@ span#webdevelopment {
   color: darkred;
   font-size: 40px;
 }
+
+.content a {
+  font-size: 20px;
+  color: tomato;
+}
+
+
